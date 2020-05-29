@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style type="text/css">
+	body {margin:0;}
+
+body
+		{
+		background-image:url("login-bg_blured.png"); 
+		background-size: cover;
+		background-attachment: fixed;
+		color: white;
+		text-align: center;
+		font-size: 50px;
+		text-decoration: none;
+		}
+.loginIntro
+		{
+		text-align: center;
+		font-size: 18px;
+
+        }
+input[type=text]
+		{
+		height: 38px;
+    	width: 20%;
+    	border-radius: 30px;
+   		background-color: rgba(255,255,255,0.5);
+    	border: 0;
+    	padding: 0 20px;
+    	border: 1px solid #ddd;
+		}
+input[type=submit]
+		{
+		height: 38px;
+    	width: 23%;
+    	border-radius: 30px;
+    	background: #e10f0f;
+    	border: 0;
+    	padding: 0 15px;
+    	color: #fff;
+    	text-transform: uppercase;
+    	border: 1px solid #ddd;
+    	cursor: pointer;
+		}
+.topnav 
+		{
+  		overflow: hidden;
+ 		background-color: #333;
+ 		position: fixed;
+  		top: 0;
+ 		width: 100%;
+ 		border-radius: 30px;
+		}
+
+.topnav a 
+		{
+  		float: right;
+  		display: block;
+  		color: #ff4d4d	;
+  		text-align: center;
+  		padding: 14px 16px;
+  		text-decoration: none;
+  		font-size: 25px;
+		}
+
+.topnav a:hover 
+		{
+ 		background: #ddd;
+ 		color: black;
+		}
+input[type=loginPassword]
+		{
+		height: 38px;
+    	width: 20%;
+    	border-radius: 30px;
+   		background-color: rgba(255,255,255,0.5);
+    	border: 0;
+    	padding: 0 20px;
+    	color: #000;
+    	transition: all 0.4s ease-in-out 0s;
+    	-webkit-transition: all 0.4s ease-in-out 0s;
+    	border: 1px solid #ddd;
+		}	
+.no-outline:focus 
+		{
+      	outline: none;
+      	}	
+.signinNone{
+      	text-decoration: none;
+      }
+</style>
+<body>
+	<br>
+		<div class="topnav">
+		 <a href="">Admin</a>
+		 <a class="signinNone" href="Backup.html"><abbr title="Create new">Sign In</abbr></a>
+		</div>
+	<br><br>
+	<img src="aiu-login-logo.gif" height="144px" width="295px">
+	<div class="center">Log In</div>
+	<div class="loginIntro">Welcome to student information<br> managment system</div>
+	<form>
+     	<input type="text" name="UID" class="no-outline" placeholder="Enter User Id" maxlength="15">
+     	<br>
+     	<input type="loginPassword" type="Password" class="no-outline" name="loginPassword" placeholder="Enter Password" maxlength="22">
+		<br>
+		<input type="submit" name="next" value="NEXT" class="no-outline">
+		<br>
+	</form>
+
+</body>
+</html>
